@@ -27,12 +27,12 @@ const Welcome: FC = () => {
         {isPending
           ? 'Cargando saludo...'
           : error instanceof AxiosError
-          ? 'No hay saludo:('
-          : data?.saludo}
+            ? 'No hay saludo:('
+            : data?.saludo}
       </p>
       <Button
         disabled={isPending}
-        onClick={() => router.push('/hola')}
+        onClick={() => router.push('/dashboard')}
       >
         Dale click aqui
       </Button>
