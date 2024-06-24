@@ -1,3 +1,4 @@
+import React from 'react'
 import {
   Table,
   TableBody,
@@ -7,8 +8,8 @@ import {
   TableHeader,
   TableRow,
 } from "@components/ui/table"
+import { Badge } from '@components/ui/badge'
 
-import React from 'react'
 
 function ObjectivesTableDashboard() {
   return (
@@ -18,9 +19,9 @@ function ObjectivesTableDashboard() {
         <TableHeader>
           <TableRow className="text-center border-none">
             <TableHead className="w-[100px]"></TableHead>
-            <TableHead className="text-center">A</TableHead>
-            <TableHead className="text-center">D</TableHead>
-            <TableHead className="text-center">R</TableHead>
+            <TableHead className="text-center align-middle"><Badge variant="ActionIconA">A</Badge></TableHead>
+            <TableHead className="text-center align-middle"><Badge variant="ActionIconD">D</Badge></TableHead>
+            <TableHead className="text-center align-middle"><Badge variant="ActionIconR">R</Badge></TableHead>
           </TableRow>
         </TableHeader>
         <TableBody>
