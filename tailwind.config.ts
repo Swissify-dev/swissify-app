@@ -20,6 +20,7 @@ const config = {
     fontSize: {
       base: 'var(--font-size-p)',
       lg: 'var(--font-size-h3)',
+      '2xl': 'var(--font-size-h1)',
     },
     extend: {
       colors: {
