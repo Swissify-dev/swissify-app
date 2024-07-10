@@ -13,21 +13,22 @@
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
 
-    --primary: 157, 100%, 30%, 1;
+    --primary: 156.86deg 100% 30%;
     --primary-foreground: 210 40% 98%;
 
     --secondary: 37, 100%, 70%, 1;
-    --secondary-foreground: 157, 100%, 30%, 1;
+    --secondary-foreground: 156.86deg 100% 30%;
 
     --primary-red: 7, 98%, 63%, 1;
     --primary-blue: 201, 95%, 43%, 1;
     --primary-gray: 240, 1.41%, 41.76%, 100%;
-
+    --primary-yellow: 37.11deg 100% 70.2%;
+    --secondary-gray: 0deg 0% 93.73%;
     --muted: 37, 100%, 70%, 1;
     --muted-foreground: 215.4 16.3% 46.9%;
 
     --accent: 37, 100%, 70%, 1;
-    --accent-foreground: 157, 100%, 30%, 1;
+    --accent-foreground: 156.86deg 100% 30%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
@@ -54,7 +55,7 @@
     --popover-foreground: 210 40% 98%;
 
     --primary: 210 40% 98%;
-    --primary-foreground: 157, 100%, 30%, 1;
+    --primary-foreground: 156.86deg 100% 30%;
 
     --secondary: 217.2 32.6% 17.5%;
     --secondary-foreground: 210 40% 98%;
@@ -81,5 +82,11 @@
 
   body {
     @apply bg-background text-foreground;
+  }
+}
+
+@layer components {
+  .card {
+    @apply p-4 rounded-md border-solid border border-slate-200;
   }
 }
