@@ -39,9 +39,9 @@ function ObjectivesTableDashboard() {
           </TableRow>
           <TableRow className="text-center">
             <TableCell className="font-medium">Diferencia</TableCell>
-            <TableCell className="text-center">+2</TableCell>
-            <TableCell className="text-center">-6</TableCell>
-            <TableCell className="text-center">-24</TableCell>
+            <TableCell className="text-center text-primary-green">+2</TableCell>
+            <TableCell className="text-center text-primary-red">-6</TableCell>
+            <TableCell className="text-center text-primary-red">-24</TableCell>
           </TableRow>
         </TableBody>
       </Table>

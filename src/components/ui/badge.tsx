@@ -15,11 +15,11 @@ const badgeVariants = cva(
         destructive:
           "border-transparent bg-destructive text-destructive-foreground shadow hover:bg-destructive/80",
         outline: "text-foreground",
-        ActionIconA: "border-transparent rounded-full bg-green-600 text-white",
-        ActionIconD: "border-transparent rounded-full bg-blue-600 text-white",
-        ActionIconR: "border-transparent rounded-full bg-yellow-600 text-white",
-        ActionIconN: "border-transparent rounded-full bg-grey-600 text-white",
-        ActionIconC: "border-transparent rounded-full bg-red-600 text-white",
+        ActionIconA: "border-transparent rounded-full bg-primary-green text-white",
+        ActionIconD: "border-transparent rounded-full bg-primary-blue text-white",
+        ActionIconR: "border-transparent rounded-full bg-primary-yellow text-white",
+        ActionIconN: "border-transparent rounded-full bg-primary-gray text-white",
+        ActionIconC: "border-transparent rounded-full bg-primary-red text-white",
       },
     },
     defaultVariants: {
