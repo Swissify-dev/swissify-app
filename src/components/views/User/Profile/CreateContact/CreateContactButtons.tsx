@@ -1,14 +1,16 @@
 import { Button } from '@components/ui/button'
+import CreateContactModal from './CreateContactModal'
 
 const CreateContactButtons = () => {
   return (
     <>
-      <Button
+      {/* <Button
         type='submit'
         variant='primary'
       >
         Guardar
-      </Button>
+      </Button> */}
+      <CreateContactModal />
       <Button variant='red'>Descartar</Button>
     </>
   )
