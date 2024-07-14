@@ -13,14 +13,11 @@ const CreateContactModal = () => {
   return (
     <>
       <Dialog>
-        <DialogTrigger className='w-full'>
-          <Button
-            type='submit'
-            variant='primary'
-            className='w-full'
-          >
-            Guardar
-          </Button>
+        <DialogTrigger
+          type='submit'
+          className='w-full bg-primary text-white rounded-md p-2'
+        >
+          Guardar
         </DialogTrigger>
         <DialogContent className='max-w-96'>
           <DialogHeader>

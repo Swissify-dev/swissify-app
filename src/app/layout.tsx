@@ -4,6 +4,7 @@ import './globals.css'
 import { Providers } from '@components/containers/Providers/Providers'
 
 import Header from '@components/containers/Layout/Header'
+import React from 'react'
 
 const inter = Inter({ subsets: ['latin'] })
 
