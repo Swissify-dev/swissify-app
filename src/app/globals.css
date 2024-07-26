@@ -86,8 +86,14 @@
 }
 
 @layer components {
+  .base-card {
+    @apply p-4 rounded-md w-full max-w-[26rem];
+  }
   .card {
-    @apply p-4 rounded-md border-solid border border-slate-200 w-full max-w-[26rem];
+    @apply base-card border-solid border border-slate-200;
+  }
+  .gray-card {
+    @apply base-card bg-secondary-gray;
   }
   .button {
     @apply inline-flex bg-primary text-primary-foreground shadow hover:bg-primary/90 h-10 px-4 py-2 items-center justify-center whitespace-nowrap rounded-md font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50;

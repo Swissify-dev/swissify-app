@@ -1,4 +1,4 @@
-import ContactProfileView from '@components/views/User/Profile/ContactProfile/ContactProfileView'
+import ContactProfileView from '@components/views/User/Profile/Contacts/ContactProfile/ContactProfileView'
 
 const ContactProfilePage = () => {
   return <ContactProfileView />

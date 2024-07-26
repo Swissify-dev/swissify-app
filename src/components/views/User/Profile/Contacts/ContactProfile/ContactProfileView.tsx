@@ -1,14 +1,14 @@
 'use client'
-import { Badge } from '@components/ui/badge'
 import { Pencil1Icon } from '@radix-ui/react-icons'
 import { ContactProfileForm } from './ContactProfileForm'
 import ContactProfileCard from './ContactProfileCard'
 import Historial from './Historial/Historial'
 import Reminders from './Reminders/Reminders'
-import CreateEvent from '../UserModals/CreateEvent'
-import CreateReminder from '../UserModals/CreateReminder'
+import CreateEvent from '../../UserModals/CreateEvent'
+import CreateReminder from '../../UserModals/CreateReminder'
 import { Button } from '@components/ui/button'
-import OffCall from '../UserModals/OffCall'
+import OffCall from '../../UserModals/OffCall'
+import { Avatar } from '@components/ui/avatar'
 
 const ContactProfileView = () => {
   return (
@@ -19,7 +19,7 @@ const ContactProfileView = () => {
       </div>
       <div className='flex flex-col items-end'>
         <Pencil1Icon />
-        <Badge className='h-20 w-20 rounded-full m-auto' />
+        <Avatar className='h-20 w-20 rounded-full m-auto' />
       </div>
       <ContactProfileForm />
       <div className='flex max-w-[26rem] flex-col gap-4 m-auto w-full items-center'>

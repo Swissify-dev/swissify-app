@@ -1,5 +1,5 @@
 'use client'
-import { Badge } from '@components/ui/badge'
+import { Avatar } from '@components/ui/avatar'
 import { Button } from '@components/ui/button'
 import {
   Dialog,
@@ -19,10 +19,13 @@ const CreateContactModal = () => {
         >
           Guardar
         </DialogTrigger>
-        <DialogContent className='max-w-96'>
+        <DialogContent
+          aria-describedby={undefined}
+          className='max-w-96'
+        >
           <DialogHeader>
             <div className='flex justify-start gap-5 items-center rounded-md p-3 bg-secondary-gray'>
-              <Badge className='h-12 w-12 rounded-full' />
+              <Avatar className='h-12 w-12 rounded-full' />
               <h1>María Hernández</h1>
             </div>
           </DialogHeader>
