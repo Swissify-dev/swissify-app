@@ -1,5 +1,5 @@
 import { FormProvider, useForm } from 'react-hook-form'
-import { profileSchema } from 'src/schemas/profile.schema'
+import { ProfileSchema } from 'src/schemas/profile.schema'
 import {
   FormControl,
   FormField,
@@ -12,7 +12,7 @@ import { useYupValidationResolver } from '@hooks/useYupValidationResolver'
 
 const BasicForm = () => {
   const methods = useForm({
-    resolver: useYupValidationResolver(profileSchema),
+    resolver: useYupValidationResolver(ProfileSchema.getSchema()),
     defaultValues: {
       name: '',
       lastname: '',
