@@ -4,6 +4,7 @@ import './globals.css'
 import { Providers } from '@components/containers/Providers/Providers'
 
 import Header from '@components/containers/Layout/Header'
+import NavBar from '@components/containers/Layout/NavBar'
 import React from 'react'
 
 const inter = Inter({ subsets: ['latin'] })
@@ -23,6 +24,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <Header text='Swissify' />
         <Providers>{children}</Providers>
+        <NavBar />
       </body>
     </html>
   )

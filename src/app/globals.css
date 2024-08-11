@@ -23,6 +23,7 @@
     --primary-blue: 201, 95%, 43%, 1;
     --primary-gray: 240, 1.41%, 41.76%, 100%;
     --primary-yellow: 37.11deg 100% 70.2%;
+    --primary-green: 156.86, 100%, 30%;
     --secondary-gray: 0deg 0% 93.73%;
     --muted: 37, 100%, 70%, 1;
     --muted-foreground: 215.4 16.3% 46.9%;
@@ -89,12 +90,15 @@
   .base-card {
     @apply p-4 rounded-md w-full max-w-[26rem];
   }
+
   .card {
     @apply base-card border-solid border border-slate-200;
   }
+
   .gray-card {
     @apply base-card bg-secondary-gray;
   }
+
   .button {
     @apply inline-flex bg-primary text-primary-foreground shadow hover:bg-primary/90 h-10 px-4 py-2 items-center justify-center whitespace-nowrap rounded-md font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50;
   }
